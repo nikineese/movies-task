@@ -1,10 +1,10 @@
 import { Box, Rating, Typography } from "@mui/material";
 import { BASE_API_URL } from "@/shared/config";
 import Image from "next/image";
-import { MoviePageParams } from "@/pages/movie/types";
 import React from "react";
 import Head from "next/head";
 import { imagePlaceholder } from "@/shared/lib/constants";
+import { MoviePageParams } from "@/entities/movies/model";
 
 const MoviePage: React.FC<MoviePageParams> = ({ data }) => {
   return (
